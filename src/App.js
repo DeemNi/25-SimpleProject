@@ -4,6 +4,7 @@ import ImageSlider from './components/image-slider';
 import LoadMoreButton from './components/load-more-button';
 import TreeView from './components/navigation-menu';
 import menus from './components/navigation-menu/data';
+import QrGenerator from './components/qr-generator';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 
@@ -26,7 +27,10 @@ function App() {
       {/* <LoadMoreButton /> */}
 
       {/* Tree view component */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
+      {/* Qr Code Genetator */}
+      <QrGenerator />
 
     </div>
   );
