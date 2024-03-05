@@ -10,7 +10,8 @@ export default function QrGenerator() {
     const [input, setInput] = useState('');
 
     function handleGenerateQrCode(){
-        setQrCode(input)
+        setQrCode(input);
+        setInput('');
     }
 
     return (
