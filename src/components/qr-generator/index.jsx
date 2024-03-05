@@ -18,7 +18,7 @@ export default function QrGenerator() {
         <div>
             <h1>Qr Code Generator</h1>
             <div>
-                <input type="text" onChange={(e) => setInput(e.target.value)} name='qr-code' placeholder='Enter your value here' />
+                <input type="text" onChange={(e) => setInput(e.target.value)} name='qr-code' placeholder='Enter your value here' value={input} />
                 <button onClick={handleGenerateQrCode} disabled={input && input.trim() !== '' ? false : true}>Generate</button>
             </div>
             <div>
