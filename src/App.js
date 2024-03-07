@@ -7,6 +7,7 @@ import menus from './components/navigation-menu/data';
 import QrGenerator from './components/qr-generator';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
+import ThemeSwitch from './components/theme-switcher';
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* Qr Code Genetator */}
-      <QrGenerator />
+      {/* <QrGenerator /> */}
+
+      {/* Theme Switcher Component */}
+      <ThemeSwitch />
 
     </div>
   );
