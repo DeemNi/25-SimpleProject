@@ -6,7 +6,7 @@ import TreeView from './components/navigation-menu';
 import menus from './components/navigation-menu/data';
 import QrGenerator from './components/qr-generator';
 import RandomColor from './components/random-color';
-import { ScrollIndicator } from './components/scroll-indicator';
+import ScrollIndicator from './components/scroll-indicator';
 import StarRating from './components/star-rating';
 import ThemeSwitch from './components/theme-switcher';
 
@@ -38,7 +38,7 @@ function App() {
       {/* <ThemeSwitch /> */}
 
       {/* Scroll Indicator Component */}
-      <ScrollIndicator />
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
 
     </div>
   );
