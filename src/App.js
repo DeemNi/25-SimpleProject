@@ -1,5 +1,6 @@
 import './App.css';
 import Accordian from './components/accordion';
+import TabTest from './components/custom-tabs/tab-test';
 import ImageSlider from './components/image-slider';
 import LoadMoreButton from './components/load-more-button';
 import TreeView from './components/navigation-menu';
@@ -38,7 +39,10 @@ function App() {
       {/* <ThemeSwitch /> */}
 
       {/* Scroll Indicator Component */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+      {/* Tabs Component */}
+      <TabTest />
 
     </div>
   );
