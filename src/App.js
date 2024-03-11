@@ -3,6 +3,7 @@ import Accordian from './components/accordion';
 import TabTest from './components/custom-tabs/tab-test';
 import ImageSlider from './components/image-slider';
 import LoadMoreButton from './components/load-more-button';
+import ModalTest from './components/modal-popup/modal-test';
 import TreeView from './components/navigation-menu';
 import menus from './components/navigation-menu/data';
 import QrGenerator from './components/qr-generator';
@@ -42,7 +43,10 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
       {/* Tabs Component */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Custom Modal Component */}
+      <ModalTest />
 
     </div>
   );
