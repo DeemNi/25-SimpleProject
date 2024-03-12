@@ -1,6 +1,7 @@
 import './App.css';
 import Accordian from './components/accordion';
 import TabTest from './components/custom-tabs/tab-test';
+import GitChecker from './components/github-profile-checker/gitChecker';
 import ImageSlider from './components/image-slider';
 import LoadMoreButton from './components/load-more-button';
 import ModalTest from './components/modal-popup/modal-test';
@@ -46,7 +47,10 @@ function App() {
       {/* <TabTest /> */}
 
       {/* Custom Modal Component */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      {/* Github Profile Checker */}
+      <GitChecker />
 
     </div>
   );
