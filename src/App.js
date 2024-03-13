@@ -13,6 +13,7 @@ import ScrollIndicator from './components/scroll-indicator';
 import SearchAutocomplete from './components/search-autocomplete/search';
 import StarRating from './components/star-rating';
 import ThemeSwitch from './components/theme-switcher';
+import TikTakToe from './components/tic-tak-toe';
 
 function App() {
   return (
@@ -54,7 +55,10 @@ function App() {
       {/* <GitChecker /> */}
 
       {/* Search Autocomplete Component */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* Tic Tak Toe Component */}
+      <TikTakToe />
 
     </div>
   );
