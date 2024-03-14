@@ -1,6 +1,8 @@
 import './App.css';
 import Accordian from './components/accordion';
 import TabTest from './components/custom-tabs/tab-test';
+import FeatureFlags from './components/feature-flag';
+import FeatureFlagState from './components/feature-flag/content';
 import GitChecker from './components/github-profile-checker/gitChecker';
 import ImageSlider from './components/image-slider';
 import LoadMoreButton from './components/load-more-button';
@@ -58,7 +60,12 @@ function App() {
       {/* <SearchAutocomplete /> */}
 
       {/* Tic Tak Toe Component */}
-      <TikTakToe />
+      {/* <TikTakToe /> */}
+
+      {/* Feature Flag Switcher */}
+      <FeatureFlagState>
+        <FeatureFlags />
+      </FeatureFlagState>
 
     </div>
   );
