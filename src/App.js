@@ -17,6 +17,7 @@ import StarRating from './components/star-rating';
 import ThemeSwitch from './components/theme-switcher';
 import TikTakToe from './components/tic-tak-toe';
 import UseFetchHookTest from './components/useFetch/test';
+import UseOnClickOutsideTest from './components/useOnClickOutside/test';
 
 function App() {
   return (
@@ -69,8 +70,10 @@ function App() {
       </FeatureFlagState> */}
 
       {/* useFatch - custom hook */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
 
+      {/* useOnClickOutside - custom hook */}
+      <UseOnClickOutsideTest /> 
     </div>
   );
 }
