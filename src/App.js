@@ -16,6 +16,7 @@ import SearchAutocomplete from './components/search-autocomplete/search';
 import StarRating from './components/star-rating';
 import ThemeSwitch from './components/theme-switcher';
 import TikTakToe from './components/tic-tak-toe';
+import UseFetchHookTest from './components/useFetch/test';
 
 function App() {
   return (
@@ -63,9 +64,12 @@ function App() {
       {/* <TikTakToe /> */}
 
       {/* Feature Flag Switcher */}
-      <FeatureFlagState>
+      {/* <FeatureFlagState>
         <FeatureFlags />
-      </FeatureFlagState>
+      </FeatureFlagState> */}
+
+      {/* useFatch - custom hook */}
+      <UseFetchHookTest />
 
     </div>
   );
