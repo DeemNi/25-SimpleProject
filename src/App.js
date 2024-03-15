@@ -18,6 +18,7 @@ import ThemeSwitch from './components/theme-switcher';
 import TikTakToe from './components/tic-tak-toe';
 import UseFetchHookTest from './components/useFetch/test';
 import UseOnClickOutsideTest from './components/useOnClickOutside/test';
+import UseWindowResizeTest from './components/useWindowResize/test';
 
 function App() {
   return (
@@ -73,7 +74,11 @@ function App() {
       {/* <UseFetchHookTest /> */}
 
       {/* useOnClickOutside - custom hook */}
-      <UseOnClickOutsideTest /> 
+      {/* <UseOnClickOutsideTest />  */}
+
+      {/* useWindowResize - custom hook */}
+      <UseWindowResizeTest />
+
     </div>
   );
 }
