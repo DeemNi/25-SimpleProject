@@ -12,6 +12,7 @@ import menus from './components/navigation-menu/data';
 import QrGenerator from './components/qr-generator';
 import RandomColor from './components/random-color';
 import ScrollIndicator from './components/scroll-indicator';
+import { ScrollToSection } from './components/scroll-to-section/scroll-to-section';
 import ScrollToTopAndBOttom from './components/scrollToTopAndBottom';
 import SearchAutocomplete from './components/search-autocomplete/search';
 import StarRating from './components/star-rating';
@@ -81,7 +82,10 @@ function App() {
       {/* <UseWindowResizeTest /> */}
 
       {/* Scroll to Top and Bottom Component */}
-      <ScrollToTopAndBOttom />
+      {/* <ScrollToTopAndBOttom /> */}
+
+      {/* Scroll to Particular Section */}
+      <ScrollToSection />
 
     </div>
   );
